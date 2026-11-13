@@ -1,0 +1,11 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Acme SDK",
+  "colors": { "primary": "#0369a1" },
+  "navigation": {
+    "groups": [
+      { "group": "Get started", "pages": ["index", "quickstart"] },
+      { "group": "Updates", "pages": ["changelog"] }
+    ]
+  }
+}

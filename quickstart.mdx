@@ -1,0 +1,38 @@
+---
+title: Quickstart
+description: Make your first call.
+---
+
+<Steps>
+  <Step title="Install the library">
+    <CodeGroup>
+    ```bash npm
+    npm install acme
+    ```
+
+    ```bash pip
+    pip install acme
+    ```
+    </CodeGroup>
+  </Step>
+  <Step title="Create a client">
+    Read your API key from the environment. Never put it in your code.
+
+    <CodeGroup>
+    ```javascript Node.js
+    import Acme from "acme";
+
+    const acme = new Acme({ apiKey: process.env.ACME_API_KEY });
+    console.log(await acme.projects.list());
+    ```
+
+    ```python Python
+    import os
+    from acme import Acme
+
+    acme = Acme(api_key=os.environ["ACME_API_KEY"])
+    print(acme.projects.list())
+    ```
+    </CodeGroup>
+  </Step>
+</Steps>
