@@ -6,8 +6,8 @@ Revdoku publishes it as a docs site (Mintlify-compatible) with search, an Ask bo
 ## How it goes live
 
 - Push to GitHub. Revdoku syncs the repository (Settings → GitHub in the dashboard) and publishes the site again.
-- Or edit the files of the Revdoku bucket with an AI app that is connected to it (MCP or the CLI), then publish.
-- This file is for you, the agent. Revdoku keeps it in the bucket but never publishes it. The same holds for `CLAUDE.md`, `GEMINI.md`, dotfiles, `.env` files and lockfiles.
+- Revdoku only reads the repository. Change the files here, on GitHub.
+- This file is for you, the agent. Revdoku keeps it in the project but never publishes it. The same holds for `CLAUDE.md`, `GEMINI.md`, dotfiles, `.env` files and lockfiles.
 
 ## Files
 
