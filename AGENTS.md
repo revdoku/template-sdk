@@ -21,5 +21,5 @@ Revdoku publishes it as a docs site (Mintlify-compatible) with search, an Ask bo
 1. Replace the sample name "Acme" and the sample text with the real product. Keep the structure.
 2. Keep `docs.json` in step with the pages you add, rename or delete. Check every link.
 3. This repository publishes: never put secrets, tokens or private data in it.
-4. Page format and components (`Callout`, `Card`, `CardGroup`, `Steps`, `Tabs`, `CodeGroup`, `Accordion`): https://support.revdoku.com/docs/docs-sites.md
-5. About Revdoku: https://revdoku.com. Docs: https://support.revdoku.com/docs/.
+4. Page format and components (`Callout`, `Card`, `CardGroup`, `Steps`, `Tabs`, `CodeGroup`, `Accordion`): https://support.revdoku.com/docs-sites.md
+5. About Revdoku: https://revdoku.com. Docs: https://support.revdoku.com/.
